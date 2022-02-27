@@ -1,0 +1,426 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A collection out of the book called Liber regalis, remaining in the treasury of the church of Westminster. Touching the coronation of the King and Queen together, according to the usual form.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1661</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 17 KB of XML-encoded text transcribed from 7 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A80123</idno>
+            <idno type="STC">Wing C5215</idno>
+            <idno type="STC">Thomason E1081_3</idno>
+            <idno type="STC">ESTC R207915</idno>
+            <idno type="EEBO-CITATION">99866934</idno>
+            <idno type="PROQUEST">99866934</idno>
+            <idno type="VID">119223</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A80123)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 119223)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 161:E1081[3])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A collection out of the book called Liber regalis, remaining in the treasury of the church of Westminster. Touching the coronation of the King and Queen together, according to the usual form.</title>
+               </titleStmt>
+               <extent>12 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by R.D. for Charls Adams, at the Talbot in Fleetstreet, over against Fetter-Lane.,</publisher>
+                  <pubPlace>London, :</pubPlace>
+                  <date>1661..</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Annotation on Thomason copy: "feb: 5", "1660 Feb 5"; the second 1 in imprint date changed to "0".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Coronations --  England --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-01</date>
+            <label>Kayla Ondracek</label>Sampled and proofread</change>
+         <change>
+            <date>2010-01</date>
+            <label>Kayla Ondracek</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:119223:1" rendition="simple:additions"/>
+            <!-- PDF PAGE 1 -->
+            <p>A COLLECTION Out of the Book called Liber Regalis, Remaining in the TREASURY Of the Church of WESTMINSTER. TOUCHING THE CORONATION OF THE KING and QUEEN together, According to the uſual Form.</p>
+            <p>
+               <hi>London,</hi> Printed by <hi>R. D.</hi> for <hi>Charls Adams,</hi> at the <hi>Talbot</hi> in <hi>Fleetſtreet,</hi> over againſt <hi>Fetter-Lane.</hi> 1660.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="2" facs="tcp:119223:2"/>
+            <!-- PDF PAGE 2 -->
+            <head>The Manner and Form of the King's Coronation.</head>
+            <p>
+               <seg rend="decorInit">T</seg>HE place where the King is to be Crowned, is the Church of <hi>Weſtminſter,</hi> granted to it by divers Charters to be <hi>Locus In<g ref="char:EOLhyphen"/>ſtitutionis &amp; Coronationis Re<g ref="char:EOLhyphen"/>giae, &amp; Repoſitorum Regalium inſignium imperpetuum.</hi>
+            </p>
+            <p>The Perſon that is to annoint and crown the King, is the Lord Archbiſhop of <hi>Canterbury.</hi>
+            </p>
+            <p>Againſt the Solemnity a ſquare Stage is to be ſet up cloſe to the four high pillars, between the Queer and the Altar with Railes about it. The Stage is to be covered with Tapiſtry, and the Raile alſo to be covered richly,</p>
+            <p>There muſt be two pair of Stairs from the Stages, one to the Queer weſtward, and the other to the Altar eaſtward.</p>
+            <p>Upon the Stage are two Thrones of Eſtate to be ſet up; one for the King, and another for the Queen, ſet out richly.</p>
+            <pb n="3" facs="tcp:119223:2"/>
+            <!-- PDF PAGE 2 -->
+            <p>The King's Throne to be higher than the Queens.</p>
+            <p>On the ſouth ſide of the Altar is a Chaire to be ſet for the King, and another not ſo high on the north ſide for the Queen, with two ſtools and cuſhi<g ref="char:EOLhyphen"/>ons for either of them to pray at.</p>
+            <p>In St. <hi>Edward's</hi> Chappel a Traverſe is to be ſet up, wherein the King diſrobeth himſelf after the Coronation is done.</p>
+            <p>Where alſo a Stool and Cuſhions (to pray at) and a Chair for the Queen to repoſe her ſelf in the mean time, are to be made ready.</p>
+            <p>The Arch-biſhop is to put the King in mind the evening before the Coronation, to give himſelf to contemplation and prayer, as in the book, pag. 6.</p>
+            <p>The Arch-biſhop is to deliver to his Majeſty the <hi>Tunica,</hi> or ſhirt of red ſilk, which he is to wear over his ſhirt, to which <hi>tunica</hi> his Majeſties ſhirt and other wearing apparrell is to be fitted becauſe of the annointing.</p>
+            <p>There are to be delivered alſo theſe <hi>Regalia</hi> to whom his Majeſty ſhall appoint.</p>
+            <p>
+               <hi>viz.</hi>
+            </p>
+            <list>
+               <head>For the King.</head>
+               <item>
+                  <hi>The Regalia.</hi>
+               </item>
+               <item>
+                  <hi>The Patten.</hi>
+               </item>
+               <item>
+                  <hi>The Scepter with the Croſſe.</hi>
+               </item>
+               <item>
+                  <hi>The long Scepter.</hi>
+               </item>
+            </list>
+            <list>
+               <head>For the Queen.</head>
+               <item>
+                  <hi>The Rod with the Dove and Spurs.</hi>
+               </item>
+               <item>
+                  <hi>The Ivory Rod, with the Dove,</hi>
+               </item>
+               <item>
+                  <hi>The Scepter.</hi>
+               </item>
+               <item>
+                  <hi>The Crown.</hi>
+               </item>
+            </list>
+            <p>All the other <hi>Regalia</hi> together with the <hi>Ampull,</hi> wherein is the Oyl wherewith the Kings and Queens have been annointed muſt be laid ready on the Altar.</p>
+            <pb n="4" facs="tcp:119223:3"/>
+            <!-- PDF PAGE 3 -->
+            <p>That the Crown, and other Robes which the King putteth on after the Coronation, muſt be laid ready in the Traverſe in St. <hi>Edward's</hi> Chappell.</p>
+            <p>The Heir of the Lord <hi>Beauchamp</hi> of <hi>Bedford,</hi> Al<g ref="char:EOLhyphen"/>moner for the Coronation is to have care that clo<g ref="char:EOLhyphen"/>thes be ſpread on the ground from the Pallace Hall door to the Stage in the Church.</p>
+            <p>
+               <hi>Decanus Weſtm. ſemper Lateri.</hi>
+            </p>
+            <p>
+               <hi>Regis adhaerendo praeſens debet eſſe prodicti Regis informatione in hiis quae dicta Coronationis concer<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>unt Solemnitatem.</hi>
+            </p>
+            <p>The Arch-biſhops and Biſhops of this Kingdom preſent; with the Church and Queer of <hi>Weſtminſter</hi> are to meet the King at the Pallace gate.</p>
+            <p>Two Biſhops appointed by the King are to carry
+<list>
+                  <item>1. the Regall Crown.</item>
+                  <item>2. the Patten.</item>
+               </list>
+            </p>
+            <p>Then three Peers <hi>Duces ſive comites Regni ex<g ref="char:EOLhyphen"/>cellentiores, &amp;c.</hi> are to bear,</p>
+            <list>
+               <item>1. <hi>The Scepter with the Croſs.</hi>
+               </item>
+               <item>2. <hi>The long Scepter.</hi>
+               </item>
+               <item>3. <hi>The Rod with the Dove.</hi>
+               </item>
+            </list>
+            <p>After whom 3 Swords born by three Earls, name<g ref="char:EOLhyphen"/>ly, of <hi>Cheſter, Huntingdon, Warwick.</hi>
+            </p>
+            <p>Then <hi>unus de Magnatibus ad hoc per Regem aſſig<g ref="char:EOLhyphen"/>natus</hi> is to carry the Spurres.</p>
+            <p>The King goeth next, under a Canopy born by the Barons of the Cinque-Ports, four of them at a ſtaff, ſupported by the Biſhops of <hi>Durham</hi> and <hi>Bathe.</hi>
+            </p>
+            <p>After the King doe follow three Peers, carrying,
+<list>
+                  <item>1. <hi>The Ivory Rod.</hi>
+                  </item>
+                  <item>2. <hi>The Queen's Scepter.</hi>
+                  </item>
+                  <item>3. <hi>The Queen's Crown.</hi>
+                  </item>
+               </list>
+            </p>
+            <pb n="5" facs="tcp:119223:3"/>
+            <!-- PDF PAGE 3 -->
+            <p>Then the Queen under a Canopy, born likewiſe by the Barons of the Cinque Ports, ſupported likewiſe by two Biſhops, her Gown and habit deſcribed in the book.</p>
+            <p>The King and Queen are received into the Church with an Anthemn or Hymn.</p>
+            <p>They paſſe up the body of the Church to their ſeats of Eſtate, and they repoſe themſelves <hi>in ſede ſibi apta,</hi> and not in the Thrones.</p>
+            <p>The King being ſeated as aforeſaid, the Arch-biſhop, <hi>(praeeunte Mareſcallo Regni)</hi> goeth to all the ſides of the Stage, ſpeaking to the people, <hi>ipſorum inquirens voluntatem.</hi>
+            </p>
+            <p>During which time the King ſtandeth up and tur<g ref="char:EOLhyphen"/>neth himſelf as the Arch-biſhop ſpeaketh to the people.</p>
+            <p>An Anthem is ſung.</p>
+            <p>The Arch-biſhop whilſt it is ſinging goeth to the Altar.</p>
+            <p>The Queen alſo ſupported by two Biſhops goeth after the King to the Altar to a place provided for them.</p>
+            <p>The King offereth <hi>Pallium unum et unum librum auri,</hi> and then kneeleth, and then the Arch-biſhop ſayeth a Prayer.</p>
+            <p>A Biſhop then beginneth a Sermon, which the King and Queen hear by the Altar.</p>
+            <p>After the Sermon the Arch-biſhop aſketh the King whether he be pleaſed to take the Oath which his Predeceſſors uſually took.</p>
+            <p>The King willing thereunto, goeth to the Altar to take it.</p>
+            <pb n="6" facs="tcp:119223:4"/>
+            <!-- PDF PAGE 4 -->
+            <p>The Arch-biſhop aſketh the three firſt queſtions, and the King ſeverally anſwereth unto them.</p>
+            <p>Then another Biſhop aſketh the laſt queſtion, and the King anſwereth to it in the words as they are ſet down.</p>
+            <p>
+               <hi>Arch-biſh:</hi> Sir; will you grant and keep, and by your Oath confirm to the people of <hi>England</hi> the Laws and Cuſtomes to them granted by the Kings of <hi>England,</hi> your lawful and religious Predeceſſors; and namely, the Laws, Cuſtoms and Franchiſes granted to the Clergie, and to the people by the glo<g ref="char:EOLhyphen"/>rious King St. <hi>Edward</hi> your Predeceſſor according, and conformable to the Laws of God, and profeſ<g ref="char:EOLhyphen"/>ſion of the Goſpell, eſtabliſhed in this Kingdom, and agreeing to the Prerogatives of the Kings there<g ref="char:EOLhyphen"/>of, and to the antient Cuſtoms of this Realm.</p>
+            <p>The King anſwereth,</p>
+            <p>
+               <hi>I grant and promiſe to keep them.</hi>
+            </p>
+            <p>Then the Metropollitane ſhall declare unto the King what the things are that he ſhall ſwear unto.</p>
+            <sp>
+               <speaker>Metrop:</speaker>
+               <p>Sir, will you keep peace entirely accor<g ref="char:EOLhyphen"/>ding to your power, both to God, the holy Church, and the people.</p>
+            </sp>
+            <sp>
+               <speaker>King.</speaker>
+               <p>
+                  <hi>I will keep it.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Metrop:</speaker>
+               <p>Sir, will you to your power cauſe Law, Juſtice, and diſcretion in mercy and truth to be ex<g ref="char:EOLhyphen"/>ecuted in all your Judgements?</p>
+            </sp>
+            <sp>
+               <speaker>King.</speaker>
+               <p>
+                  <hi>I will.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Metrop:</speaker>
+               <p>Sir, will you grant to hold and keep the Laws and rightfull Cuſtomes which the Com<g ref="char:EOLhyphen"/>monaltie of your Kingdom have, and to defend and uphold them to the honour of God ſo much as in you lieth.</p>
+            </sp>
+            <pb n="7" facs="tcp:119223:4"/>
+            <!-- PDF PAGE 4 -->
+            <sp>
+               <speaker>King.</speaker>
+               <p>
+                  <hi>I grant and promiſe ſo to doe.</hi>
+               </p>
+            </sp>
+            <p>
+               <hi>Legatur admonitio ſequent ab uno Epiſcopo coram omnibus clara voce ſic dicendo.</hi>
+            </p>
+            <p>
+               <hi>Domine Rex a vobis per donare petimus ut uni<g ref="char:EOLhyphen"/>cuique de nobis et eccleſiis nobis commiſſis Canonicum privilegium et debitam legem atque Juſtitiam con<g ref="char:EOLhyphen"/>cervetis et defentionem exhibeatis ſicut Rex in ſuo regno debet unicuique Epiſcopo et Eccleſiis ſibi com<g ref="char:EOLhyphen"/>miſſis.</hi>
+            </p>
+            <p>
+               <hi>Reſpondet Rex.</hi>
+            </p>
+            <p>
+               <hi>Animo libenti et devoto, promitto vobis et perdono quia unicuique de vobis commiſſis canonicum privi<g ref="char:EOLhyphen"/>legium et debitam legem atque juſtitiam ſervabo et defenſionem quantum potuero adjuvam te Domino exhibebo. Sicut Rex in ſuo Regno unicuique Epiſcopo et eccleſiis ſibi commiſſis per rectum defendere debet.</hi>
+            </p>
+            <p>This being done, the King cometh to the Altar, and laying his right hand on the Bible, ſayeth theſe words.</p>
+            <q>Thoſe things which I have before promiſed I ſhall obſerve and keep, ſo God me help, and by the contents of this book.</q>
+            <p>The King returneth to his ſeat of Eſtate again, and the Arch-Biſhop beginneth the Himnes. <hi>Veni creator ſpiritus, &amp;c.</hi> and the Queer ſinging it.</p>
+            <p>The King and Queen kneel down, and the Arch-Biſhop ſayeth a Prayer.</p>
+            <p>After which the Letanie is ſung, at the end where<g ref="char:EOLhyphen"/>of are Prayers proper for the ſolemnity.</p>
+            <p>The Letany ended, the Arch-Biſhop ſayeth aloud <hi>clara voce.</hi>
+            </p>
+            <q>
+               <l>Lift up your hearts.</l>
+               <l>It is very meet and right.</l>
+            </q>
+            <pb n="8" facs="tcp:119223:5"/>
+            <!-- PDF PAGE 5 -->
+            <p>Then the King ariſeth and goeth to the Altar, and then putteth off his other Garments, and the Arch-biſhop opening the places to be annointed, firſt an<g ref="char:EOLhyphen"/>nointeth his hands, ſaying, <hi>
+                  <g ref="char:V">Ʋ</g>nguantur manus, &amp;c.</hi>
+            </p>
+            <p>The Queere ſingeth an Anthem, and after it the Archbiſhop ſaieth a prayer.</p>
+            <p>Then he annointeth his breſt, and between the ſhoulders, and both his ſhoulders, the bending of his arm to the Crown of his head.</p>
+            <p>Then the Dean of <hi>Weſtminſter</hi> cloſeth his Robes again.</p>
+            <p>The Queer in the mean time ſinging an Anthem after the Arch-biſhop ſayeth two prayers.</p>
+            <p>St. <hi>Edward</hi>'s Ivory Comb is to be uſed, if the Kings hair after annointing lie not ſmooth.</p>
+            <p>Then the <hi>Colobium</hi> or <hi>Dalmatica</hi> is put on his Ma<g ref="char:EOLhyphen"/>jeſty by the Dean of <hi>Weſtminſter.</hi>
+            </p>
+            <p>After which done the Arch-biſhop ſayeth a praier.</p>
+            <p>Then the Dean putteth on the King
+<list>
+                  <item>
+                     <hi>The ſuper tunica.</hi>
+                  </item>
+                  <item>
+                     <hi>Tinſill hoſe</hi>
+                  </item>
+                  <item>
+                     <hi>Sandalls.</hi>
+                  </item>
+               </list>
+            </p>
+            <p>The Spurrs are put on by a Noble man.</p>
+            <p>Then the Arch-biſhop, after he hath laid the Sword on the Altar, and ſaid a prayer, he delivereth it to the King, ſaying, <hi>Accipe Gladium.</hi>
+            </p>
+            <p>A Peer girteth it about the King.</p>
+            <p>Then the Armill is put about the King's neck, the Arch-biſhop ſaying, <hi>Accipe Armillas.</hi>
+            </p>
+            <p>Then the Mantle or open Pall is put on by the Dean, the Arbh-biſhop ſaying, <hi>Accipe Pallium.</hi>
+            </p>
+            <p>Then the Arch-biſhop taketh the Crown, and ſai<g ref="char:EOLhyphen"/>eth two prayers, then Crowneth the King, ſaying,</p>
+            <pb n="9" facs="tcp:119223:5"/>
+            <!-- PDF PAGE 5 -->
+            <p>
+               <hi>Coronet te Deus.</hi>
+            </p>
+            <p>The Queer ſinging an Anthem.</p>
+            <p>Then the Arch-biſhop taketh the Ring, ſaying two prayers and putteth it on the Kings finger, ſay<g ref="char:EOLhyphen"/>ing, <hi>Accipe Regiae dignitatis annulum.</hi>
+            </p>
+            <p>And then ſaieth a prayer.</p>
+            <p>Then the King putteth on the Linnen Gloves, which are part of the <hi>Regalia.</hi>
+            </p>
+            <p>Then the King taketh off his Sword wherewith he was girt before, and goeth to the Altar and offers it, which the chief Nobleman there preſent by offering, redeemeth, draweth out, and carrieth naked be<g ref="char:EOLhyphen"/>fore the King during the Solemnity.</p>
+            <p>The Arch-biſhop then delivereth to the King the Scepter with the Croſſe, ſaying,</p>
+            <p>
+               <hi>Accipe Sceptrum.</hi>
+            </p>
+            <p>And ſayeth a prayer.</p>
+            <p>Then he delivereth the Rod with the Dove into the Kings left hand, ſaying,</p>
+            <p>
+               <hi>Aceipe Virgam virtutis.</hi>
+            </p>
+            <p>And then bleſſeth the King, ſaying,</p>
+            <p>
+               <hi>Benedicat tibi Dominus.</hi>
+            </p>
+            <p>The King kiſſeth the Arch-biſhop, and the other Biſhops that aſſiſt.</p>
+            <p>After this the King goeth from the Altar up to the Stage, all the Peers attending.</p>
+            <p>The Queene ſinging <hi>Te Deum.</hi>
+            </p>
+            <p>Which being done, the Arch-biſhop inthroneth the King in his Throne, ſaying,</p>
+            <p>
+               <hi>Sta, et retine a modo locum.</hi>
+            </p>
+            <p>Which done, all the Peers do their homage to his Majeſty, and then put their hands and touch the Crown together.</p>
+            <pb n="10" facs="tcp:119223:6"/>
+            <!-- PDF PAGE 6 -->
+            <p>Then the King, for his eaſe, delivereth the Scepter and Rod to whom he pleaſeth.</p>
+            <p>Theſe things done, the Arch-biſhop goeth to the Altar, and the Queen goeth thither likewiſe, and kneeleth down.</p>
+            <p>The Arch-biſhop ſayeth a prayer.</p>
+            <p>The Queen ariſeth, then the chiefeſt Lady preſent taketh off the Crown, and then openeth her breaſt, and then kneeleth again.</p>
+            <p>The Arch-biſhop powreth the Oile on the Crown of her head, ſaying, <hi>In nomine.</hi>
+            </p>
+            <p>Then he ſaith a prayer.</p>
+            <p>The chief Lady then cloſeth her Robes at her breſt, and putteth on her head a linnen quoif.</p>
+            <p>Then the Arch-biſhop putteth on the Queens Ring, ſaying, <hi>Accipe Annulum.</hi>
+            </p>
+            <p>And then ſayeth a Prayer.</p>
+            <p>Then he taketh the Crown, and layeth it on the Altar, ſaying a Prayer.</p>
+            <p>The Queen ariſeth, and the Arch-biſhop taketh the Crown, and layeth it on the Altar, ſaying a Prayer.</p>
+            <p>Then he putteth the Crown on her head, ſaying,</p>
+            <p>
+               <hi>Accipe Coronam.</hi>
+            </p>
+            <p>After that ſayeth a Prayer.</p>
+            <p>The prayer being done, the Arch-biſhop delive<g ref="char:EOLhyphen"/>reth the Scepter into her right hand, and the Ivory Rod with the Dove into her left hand, and ſayeth a prayer.</p>
+            <p>Then the Queen ariſeth and goeth forth from the Altar, ſupported by two Biſhops, up to the Stage, and paſſing by the King doth</p>
+            <pb n="11" facs="tcp:119223:6"/>
+            <!-- PDF PAGE 6 -->
+            <p>
+               <hi>Inclinare Regi, ejus Majeſtatem ut decet adorando.</hi>
+            </p>
+            <p>After which ſhe is led to the Throne, and is pla<g ref="char:EOLhyphen"/>ced in it without further Ceremony.</p>
+            <p>Then the Arch-biſhop goeth to the Altar, and beginneth a Communion, firſt ſaying a prayer.</p>
+            <p>The Epiſtle and Goſpell are read by a Biſhop.</p>
+            <p>Then the Nicene Creed.</p>
+            <p>That done, the Queere ſingeth, in the while the King and Queen come down to offer; the King goeth firſt to the Altar, and offereth bread and wine for the Communion.</p>
+            <p>Then returning to his Chair, goeth again and of<g ref="char:EOLhyphen"/>fereth a Mark of Gold.</p>
+            <p>Then the Queen goeth to the Altar and offereth.</p>
+            <p>Then the Arch-biſhop pronounceth over them a bleſſing.</p>
+            <p>Which being done, they are brought back to their Chairs hard by the Altar.</p>
+            <p>The Arch-biſhop proceedeth with the prayer, and then with the Confeſſion.</p>
+            <p>After the Arch-biſhop hath Communicated him<g ref="char:EOLhyphen"/>ſelf and thoſe that aſſiſt him, the King and Queen cometh to the ſteps of the Altar and receive the Communion.</p>
+            <p>The Archbiſhop miniſtreth the Bread, and the Dean of <hi>Weſtminſter</hi> the Cup.</p>
+            <p>That done, the King and Queen are brought back again to their Thrones, and there ſtay until Service be ended.</p>
+            <p>After which the King and Queen come down from their Thrones in State, and goe to King <hi>Edward's</hi> Chappell.</p>
+            <pb n="12" facs="tcp:119223:7"/>
+            <!-- PDF PAGE 7 -->
+            <p>There the King taketh off the Crown, and deli<g ref="char:EOLhyphen"/>vereth it to the Arch-biſhop.</p>
+            <p>The Queen doth the like.</p>
+            <p>He layeth them on the Altar there.</p>
+            <p>The King withdraweth himſelf into the Traverſe there prepared, and the Queen repoſeth her ſelf untill the Kings return.</p>
+            <p>In the Traverſe the great Chamberlain taketh off King <hi>Edward</hi>'s Robes and delivereth them to the Dean of <hi>Weſtminſter.</hi>
+            </p>
+            <p>The King putteth on his own Robes Royal which were prepared for him to wear that day.</p>
+            <p>He goeth forth of the Traverſe to King <hi>Edward</hi>'s Altar, where the Arch-biſhop putteth on the King and Queens heads the Imperiall Crowns they are to wear that day.</p>
+            <p>The train is ſet in order, and the King and Queen go back in moſt ſolemn manner to the Pallace gate the ſame way they came.</p>
+            <p>The King and Queen withdrawing themſelves, after dinner the Scepter and the Rod, part of the <hi>Regalia,</hi> are to be delivered to the Dean of <hi>West<g ref="char:EOLhyphen"/>minſter.</hi>
+            </p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
